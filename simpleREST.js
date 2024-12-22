@@ -1,4 +1,4 @@
-const Joi = require("joi"); //returns a class, so capitalized
+const Joi = require("joi"); //returns a class
 const express = require("express"); //returns a function
 const app = express();//called app by convention, an object
 app.use(express.json()); //allows for parsing of json objects in the body of requests or something
